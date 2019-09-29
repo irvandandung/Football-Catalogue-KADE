@@ -15,8 +15,10 @@ class DetailLeague : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         setContentView(com.example.myfootballmatchschedule.R.layout.activity_detail_league)
-        viewpager_main.adapter = AdapterDetailLeague(supportFragmentManager)
-        tabs_main.setupWithViewPager(viewpager_main)
+
+
+//        viewpager_main.adapter = AdapterDetailLeague(supportFragmentManager)
+//        tabs_main.setupWithViewPager(viewpager_main)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
