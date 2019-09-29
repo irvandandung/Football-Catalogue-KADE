@@ -2,16 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
             android:id="@+id/navigation_home"
-
+            android:icon="@drawable/ball"
             android:title="Match" />
 
     <item
             android:id="@+id/navigation_dashboard"
-
+            android:icon="@drawable/team"
             android:title="Team" />
-
-    <item
-            android:id="@+id/navigation_notifications"
-
-            android:title="Favorite" />
 </menu>

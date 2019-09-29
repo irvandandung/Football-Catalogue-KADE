@@ -17,6 +17,6 @@
     <string name="deff">Defense</string>
     <string name="mildfield">Midfield</string>
     <string name="name">Barcelona</string>
-    <string name="desc"/>
+    <string name="desc" />
     <string name="title_home">Home</string>
 </resources>

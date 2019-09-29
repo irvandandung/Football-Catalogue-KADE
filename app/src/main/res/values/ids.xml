@@ -40,4 +40,7 @@
     <item name="rv_player" type="id"/>
     <item name="player_badge" type="id"/>
     <item name="player_name" type="id"/>
+    <item name="rv_team_list" type="id" />
+    <item name="team_name2" type="id" />
+    <item name="team_badge2" type="id" />
 </resources>

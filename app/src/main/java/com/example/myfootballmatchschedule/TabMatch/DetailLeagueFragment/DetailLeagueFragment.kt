@@ -2,11 +2,11 @@ package com.example.myfootballmatchschedule.TabMatch.DetailLeagueFragment
 
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ProgressBar
+import androidx.fragment.app.Fragment
 import com.example.myfootballmatchschedule.Connection.ApiRepository
 import com.example.myfootballmatchschedule.ModelData.ModelLeague
 import com.example.myfootballmatchschedule.R
@@ -14,6 +14,7 @@ import com.example.myfootballmatchschedule.visible
 import com.google.gson.Gson
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.fragment_detail_league.*
+import org.jetbrains.anko.support.v4.intentFor
 
 class DetailLeagueFragment : Fragment(), DetailLeagueView {
     private var idLeague: String? = ""
@@ -35,9 +36,12 @@ class DetailLeagueFragment : Fragment(), DetailLeagueView {
             data[0].leagueImage,
             data[0].leagueDescription
         )
-        tv_Judul.text = league.leagueName
-        tv_Deskripsi.text = league.leagueDescription
-        Picasso.get().load(league.leagueImage).into(badge)
+
+        tv_Judul?.text = league.leagueName
+        tv_Deskripsi?.text = league.leagueDescription
+        if (badge != null) {
+            Picasso.get().load(league.leagueImage).into(badge)
+        }
     }
 
 

@@ -26,6 +26,8 @@
         </activity>
         <activity android:name=".SearchMatch.SearchMatchMain">
         </activity>
+        <activity android:name=".SearchTeam.SearchTeamMain">
+        </activity>
         <activity android:name=".DetailMatch.DetailMatchActivity">
         </activity>
     </application>
