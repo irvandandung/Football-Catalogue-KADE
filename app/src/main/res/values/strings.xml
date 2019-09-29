@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyFootballMatchSchedule</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Judul dan isi</string>
+    <string name="vs">OOPS VS OOPS</string>
+    <string name="last_match">Last Match</string>
+    <string name="goals">Goals</string>
+    <string name="shots">Shots</string>
+    <string name="team_bottom_nav">Team</string>
+    <string name="barcelona">Barcelona</string>
+    <string name="year">1999</string>
+    <string name="camp_nou">Camp Nou</string>
+    <string name="lorem">lorem</string>
+    <string name="position">position</string>
+    <string name="lineups">LineUps</string>
+    <string name="goal_keeper">Goal Keeper</string>
+    <string name="deff">Defense</string>
+    <string name="mildfield">Midfield</string>
+    <string name="name">Barcelona</string>
+    <string name="desc"/>
+</resources>
